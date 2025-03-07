@@ -177,14 +177,20 @@ This should create a new patient and return the created patient's details.
 
 When integrating FHIR into your application, security is crucial, especially when handling sensitive healthcare data. Consider the following best practices:
 
-Use **HTTPS:** Ensure that all interactions with the FHIR server use HTTPS to encrypt communication.
-**Authentication:** Implement OAuth 2.0 or another secure authentication method to protect patient data.
-**Data Validation:** Validate incoming data to ensure it conforms to FHIR standards before interacting with the FHIR server.
+- **HTTPS:** Ensure that all interactions with the FHIR server use HTTPS to encrypt communication.
+- **Authentication:** Implement OAuth 2.0 or another secure authentication method to protect patient data.
+- **Data Validation:** Validate incoming data to ensure it conforms to FHIR standards before interacting with the FHIR server.
 
 ## Conclusion
 Integrating FHIR with Ruby on Rails offers a powerful way to interact with healthcare data and improve interoperability between healthcare applications. By following this step-by-step guide, you can create a Rails application that interacts with FHIR resources like Patient, Observation, and more.
 
 The FHIR standard and Ruby on Rails both provide a flexible, scalable way to build modern healthcare applications that can communicate seamlessly with other systems.
 
+## Final Thoughts
+In this tutorial, we've learned how to integrate FHIR with a Ruby on Rails application, enabling communication with FHIR servers. Whether you're building an electronic health record system or a mobile healthcare app, this integration ensures your application can handle healthcare data effectively and securely.
 
+For more information on FHIR and Ruby on Rails, check out the following resources:
+
+FHIR Official Documentation - 
+https://fhir.org/ 
   
